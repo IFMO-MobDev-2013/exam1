@@ -2,6 +2,7 @@ package ru.ifmo.ctddev.isaev.CarWash;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 
 /**
  * User: Xottab
@@ -13,7 +14,7 @@ public class General {
     public static final String BOX_NUMBER = "CarWashBoxNumber";
     public static String REAL_NAME = null;
     public static int NUMBER_OF_BOXES = 0;
-    public static HashMap<Integer, ArrayList<Integer>> freeTime = new HashMap<Integer, ArrayList<Integer>>();
+    public static HashMap<Integer, ArrayList<Integer>> freeTime = new LinkedHashMap<Integer, ArrayList<Integer>>();
 
     public static String formatTime(int time) {
         StringBuilder builder = new StringBuilder();

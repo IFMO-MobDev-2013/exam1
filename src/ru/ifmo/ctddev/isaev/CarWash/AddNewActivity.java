@@ -61,13 +61,7 @@ public class AddNewActivity extends Activity {
                     scheduleDao.create(entry);
                 } catch (SQLException e) {
                     Log.e("error", "error", e);
-                }/*
-                Log.i("hilol", entry.getBrandName());
-                Log.i("hilol", entry.getColor());
-                Log.i("hilol", entry.getCarNumber());
-                Log.i("hilol", entry.getPhoneNumber());
-                Log.i("hilol", String.valueOf(entry.getBoxNumber()));
-                Log.i("hilol", String.valueOf(entry.getScheduleTime()));*/
+                }
                 Intent intent = new Intent(getApplicationContext(), ListActivity.class);
                 startActivity(intent);
             }
