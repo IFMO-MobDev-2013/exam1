@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/layout_root"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:padding="10dp" >
+
+    <TextView
+            android:id="@+id/text_parameters"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Введите параметры автомойки :"
+            android:textAppearance="?android:attr/textAppearanceLarge" android:textSize="18dp"/>
+
+    <EditText
+            android:id="@+id/editTextDialogUserInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="Автомойка дяди Вани" android:layout_marginTop="20dp">
+
+        <requestFocus />
+
+    </EditText>
+
+    <EditText
+            android:id="@+id/editTextDialogUserInput2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="10dp" android:hint="3">
+
+        <requestFocus />
+
+    </EditText>
+
+</LinearLayout>
