@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">exam</string>
+    <string name="name">Name:</string>
+    <string name="default_name">Uncle\'s vanya car wash</string>
+    <string name="box_number">Box number:</string>
+    <string name="default_box_number">3</string>
+    <string name="save">Save</string>
+</resources>
