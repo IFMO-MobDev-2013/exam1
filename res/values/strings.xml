@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WashYourCars</string>
+    <string name="WashingNameEdit">Insert name of your washing</string>
+    <string name="NumberOfBoxesEdit">Insert number of boxes</string>
+    <string name="DefaultWashingName">Vasya\'s washing</string>
+    <string name="DefaultBoxesNumber">3</string>
+    <string name="OkFirstTime">Confirm</string>
+    <string name="ButtonNewOrder">New order</string>
+    <string name="TextModel">Model</string>
+    <string name="TextColor">Color</string>
+    <string name="TextNumber">Government sign of car</string>
+    <string name="TextPhone">Phone</string>
+    <string name="OkMakeOrder">Confirm</string>
+</resources>

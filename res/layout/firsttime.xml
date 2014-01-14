@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/WashingNameEdit"
+            android:id="@+id/textView" android:layout_weight="1" style="@style/BigStyle" android:gravity="center"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/DefaultWashingName"
+            android:id="@+id/editTextFirstName" android:layout_weight="1" android:phoneNumber="true"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/NumberOfBoxesEdit"
+            android:id="@+id/textView1" android:layout_weight="1" style="@style/BigStyle"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/DefaultBoxesNumber"
+            android:id="@+id/editTextFirstBoxes" android:layout_weight="1"/>
+    <Space
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/space" android:layout_weight="1"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/OkFirstTime"
+            android:id="@+id/buttonFirstOk" android:layout_weight="1" style="@style/BigStyleBlack"/>
+</LinearLayout>
