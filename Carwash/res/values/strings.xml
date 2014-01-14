@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Carwash</string>
+    <string name="name_string">Name</string>
+    <string name="box_number_string">Box number</string>
+    <string name="ok_string">OK</string>
+    <string name="braand_string">Brand:</string>
+    <string name="color_string">Color:</string>
+    <string name="time_string">Time:</string>
+    <string name="telephone_string">Telephone:</string>
+</resources>
