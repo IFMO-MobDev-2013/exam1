@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_gravity="center_horizontal"
+            android:text="Adding car"/>
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editMarkText"
+            android:layout_marginTop="20dp"
+            android:hint="mark"
+            android:minWidth="60dp"
+            android:singleLine="true"/>
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editColorText"
+            android:layout_marginTop="20dp"
+            android:hint="color"
+            android:minWidth="100dp"
+            android:singleLine="true"/>
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editNumberText"
+            android:hint="number"
+            android:layout_marginTop="20dp"
+            android:textColor="#808080"
+            android:singleLine="true"/>
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editPhoneText"
+            android:hint="phone"
+            android:layout_marginTop="20dp"
+            android:inputType="phone"
+            android:textColor="#808080"
+            android:singleLine="true"/>
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTimeText"
+            android:layout_marginTop="20dp"
+            android:hint="time"
+            android:textSize="22dp"
+            android:minWidth="100dp"
+            android:paddingLeft="20dp"
+            android:textIsSelectable="false"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ReadyButton"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:text="Ready"/>
+
+</LinearLayout>
