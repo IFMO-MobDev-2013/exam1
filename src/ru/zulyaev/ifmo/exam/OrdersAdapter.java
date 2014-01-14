@@ -1,24 +1,37 @@
 package ru.zulyaev.ifmo.exam;
 
-import android.app.Activity;
+import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 import ru.zulyaev.ifmo.exam.db.Order;
+import ru.zulyaev.ifmo.exam.db.OrderTable;
 
-import java.util.Collections;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 public class OrdersAdapter extends BaseAdapter {
-    private List<Order> orders = Collections.emptyList();
-    private final LayoutInflater inflater;
+    private static final DateFormat FORMAT = new SimpleDateFormat("k:mm");
 
-    public OrdersAdapter(Activity activity) {
-        inflater = activity.getLayoutInflater();
+    private List<Order> orders;
+    private final LayoutInflater inflater;
+    private final OrderTable table;
+
+    public OrdersAdapter(Context context, OrderTable table) {
+        inflater = LayoutInflater.from(context);
+        this.table = table;
+
+        orders = table.getTodayOrders();
     }
 
+    public void refresh() {
+        orders = table.getTodayOrders();
+        notifyDataSetChanged();
+    }
 
     @Override
     public int getCount() {
@@ -50,6 +63,11 @@ public class OrdersAdapter extends BaseAdapter {
         } else {
             holder = (ViewHolder) view.getTag();
         }
+        Order order = orders.get(position);
+        holder.model.setText(order.model);
+        holder.color.setText(order.color);
+        holder.time.setText(FORMAT.format(new Date(order.time)));
+        holder.box.setText(Long.toString(order.box));
 
         return view;
     }

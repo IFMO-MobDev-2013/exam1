@@ -6,4 +6,11 @@
     <string name="box_number">Box number:</string>
     <string name="default_box_number">3</string>
     <string name="save">Save</string>
+    <string name="add">Add order</string>
+    <string name="model">Model:</string>
+    <string name="color">Color:</string>
+    <string name="phone">Phone:</string>
+    <string name="number">Number:</string>
+    <string name="time">Time:</string>
+    <string name="cancel">Cancel</string>
 </resources>

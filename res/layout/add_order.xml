@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="16dp">
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/model"/>
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:singleLine="true"
+              android:id="@+id/model"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/color"/>
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:singleLine="true"
+              android:id="@+id/color"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/number"/>
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:singleLine="true"
+              android:id="@+id/number"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/phone"/>
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:singleLine="true"
+              android:inputType="phone"
+              android:id="@+id/phone"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/time"/>
+    <Spinner android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/time"/>
+
+</LinearLayout>
