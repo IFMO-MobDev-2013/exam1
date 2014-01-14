@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <EditText
+            android:id="@+id/car_model_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:hint="car model">
+    </EditText>
+    <EditText
+            android:id="@+id/car_color_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:hint="car color">
+    </EditText>
+    <EditText
+            android:id="@+id/car_number_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:hint="car number">
+    </EditText>
+    <EditText
+            android:id="@+id/phone_number_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:hint="phone number"
+            android:inputType="phone">
+    </EditText>
+    <Spinner
+            android:id="@+id/wash_time_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:hint="phone number"
+            android:inputType="phone">
+    </Spinner>
+
+    <Button
+            android:id="@+id/add_car_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="@string/add_button_text"
+            android:textSize="25dp"
+            android:inputType="phone">
+    </Button>
+</LinearLayout>
