@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Car Wash</string>
+    <string name="name">Название:</string>
+    <string name="default_name">Автомойка у дяди Вани</string>
+    <string name="box_count">Число окон:</string>
+    <string name="default_box_count">3</string>
+    <string name="do_continue">Продолжить</string>
+    <string name="add_car">Добавить заказ</string>
+    <string name="brand">Марка машины:</string>
+    <string name="color">Цвет машины:</string>
+    <string name="number">Номер машины:</string>
+    <string name="phone">Номер телефона владельца:</string>
+    <string name="time">Время мойки:</string>
+    <string name="enter_brand">Введите марку машины&#8230;</string>
+    <string name="enter_color">Введите цвет машины&#8230;</string>
+    <string name="enter_number">Введите номер машины&#8230;</string>
+    <string name="enter_phone">Введите номер телефона&#8230;</string>
+    <string name="do_add">Добавить</string>
+    <string name="come_tomorrow">К сожалению, на сегодня все места уже заняты</string>
+    <string name="back">Назад</string>
+</resources>
