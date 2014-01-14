@@ -1,6 +1,8 @@
 package com.example.WashYourCars;
 
 import android.app.Activity;
+import android.content.ContentValues;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.*;
@@ -40,6 +42,14 @@ public class MakingOrder extends Activity {
             getIntent().putExtra(Order.PHONE, order.phone);
             getIntent().putExtra(Order.SIGN, order.sign);
             getIntent().putExtra(Order.HAVENEWORDER, true);
+
+            ContentValues contentValues = order.getContentValues();
+            MyDataBaseCarsHelper myDataBaseCarsHelper = new MyDataBaseCarsHelper(getApplicationContext());
+            SQLiteDatabase sqLiteDatabase = myDataBaseCarsHelper.getWritableDatabase();
+            sqLiteDatabase.insert(MyDataBaseCarsHelper.DATABASE_NAME, null, contentValues);
+
+            sqLiteDatabase.close();
+            myDataBaseCarsHelper.close();
 
             finish();
         }
