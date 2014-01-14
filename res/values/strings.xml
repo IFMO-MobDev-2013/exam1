@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CarWashing</string>
+    <string name="txt_hello">Hello! Fill your company info</string>
+    <string name="txt_company_name">Company name</string>
+    <string name="txt_number_of_boxes">Number of washing boxes: </string>
+    <string name="txt_default_number">1</string>
+    <string name="txt_done">Done</string>
+    <string name="txt_add_order">Add an order</string>
+    <string name="txt_car_model">Car model</string>
+    <string name="txt_car_color">Car color</string>
+    <string name="txt_car_number">Car number</string>
+    <string name="txt_customers_phone">Customer\'s phone number</string>
+    <string name="text_box">Box: </string>
+    <string name="txt_default_box">1</string>
+    <string name="free_boxes">(boxes: %d)</string>
+    <string name="txt_box_number">Box №</string>
+    <string name="format_am_title">%d selected</string>
+    <string name="mnu_delete">Delete</string>
+</resources>
