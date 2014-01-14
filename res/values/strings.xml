@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Автомойка</string>
+    <string name="carwash">Автомойка Дяди Вани</string>
+    <string name="boxNumber">Количество боксов</string>
+    <string name="carWashName">Название предприятия</string>
+    <string name="first_message">Введите данные о предприятии</string>
+    <string name="start">Начать работу</string>
+    <string name="fill_correct">Пожалуйста, заполните все поля</string>
+    <string name="three">3</string>
+    <string name="order_list">Список записей</string>
+    <string name="add">Добавить запись</string>
+    <string name="new_entry">Новая запись</string>
+    <string name="brandname">Марка машины</string>
+    <string name="color">Цвет</string>
+    <string name="carnumber">Номер машины</string>
+    <string name="phoneNumber">Номер телефона</string>
+    <string name="time">Желаемое время</string>
+</resources>
