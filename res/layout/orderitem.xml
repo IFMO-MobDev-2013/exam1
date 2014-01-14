@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content">
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Hour"
+            android:id="@+id/textViewOrderTime" android:layout_weight="2" android:singleLine="false"
+            style="@style/BigStyle"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Box"
+            android:id="@+id/textViewOrderBox" android:layout_weight="2" style="@style/BigStyle"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Model"
+                android:id="@+id/textViewOrderModel" style="@style/SmallStyle"/>
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Color"
+                android:id="@+id/textViewOrderColor" style="@style/SmallStyle"/>
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Phone"
+                android:id="@+id/textViewOrderPhone" style="@style/SmallStyle"/>
+    </LinearLayout>
+</LinearLayout>
