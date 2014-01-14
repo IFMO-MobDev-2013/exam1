@@ -122,7 +122,8 @@ public class MainActivity extends Activity {
                     .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int arg1) {
                             db.deleteItem(choosedCar);
-
+                            copyTo(db.getAllItems(), items);
+                            adapter.notifyDataSetChanged();
                         }
                     })
                     .setNegativeButton("No", new DialogInterface.OnClickListener() {

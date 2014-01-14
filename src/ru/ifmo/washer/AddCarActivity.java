@@ -100,7 +100,7 @@ public class AddCarActivity extends Activity {
             }
 
             int k = j;
-            for (; j < cars.size() && (Car.getTime(i).equals(cars.get(j).getTime())); j++);
+            for (; j < cars.size() && (Car.getTime(i).equals(cars.get(j).getTime()) && Integer.parseInt(cars.get(j).param[Car.BOX]) == j - k + 1); j++);
 
             if (j - k < boxes){
                 nextFreeBox[temp.size()] = j - k + 1;
