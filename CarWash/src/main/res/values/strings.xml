@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Car Wash</string>
+    <string name="action_add_car">Register car</string>
+    <string name="create_carwash">Create carwash</string>
+    <string name="action_create">Create</string>
+    <string name="pref_name">name</string>
+    <string name="pref_box_count">box count</string>
+    <string name="box_count_hint">Box count</string>
+    <string name="carwash_name_hint">Carwash name</string>
+    <string name="action_ok">Ok</string>
+    <string name="action_register">Register</string>
+    <string name="hint_make">Make</string>
+    <string name="hint_color">Color</string>
+    <string name="hint_number">Number</string>
+    <string name="hint_phone">Phone</string>
+    <string name="message_empty_name">Name must be non-empty</string>
+
+</resources>
