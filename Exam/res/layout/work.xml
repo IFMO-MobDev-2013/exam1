@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
+                  android:layout_height="wrap_content" android:id="@+id/linearLayout">
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:id="@+id/text_name"
+                  android:layout_weight="1"/>
+        <Button android:layout_width="110dp" android:layout_height="48dp" android:text="Добавить"
+                android:id="@+id/button_add"/>
+    </LinearLayout>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Введите марку автомобиля :"
+            android:id="@+id/textView_mark" android:layout_marginTop="10dp" android:layout_marginLeft="10dp"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Audi"
+            android:id="@+id/editText_mark" android:layout_gravity="left|center_vertical"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Введите цвет автомобиля :"
+            android:id="@+id/textView_colour" android:layout_marginTop="10dp" android:layout_marginLeft="10dp"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Красный"
+            android:id="@+id/editText_auto_colour" android:layout_gravity="left|center_vertical"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Введите номер автомобиля :"
+            android:id="@+id/textView_auto_number" android:layout_marginTop="10dp" android:layout_marginLeft="10dp"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="АТ123И"
+            android:id="@+id/editText_auto_number" android:layout_gravity="left|center_vertical"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Введите время заказа :"
+            android:id="@+id/textView_time" android:layout_marginTop="10dp" android:layout_marginLeft="10dp"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="12:30"
+            android:id="@+id/editText_time" android:layout_gravity="left|center_vertical"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Введите телефонный номер владельца :"
+            android:id="@+id/textView_telephone_number" android:layout_marginTop="10dp" android:layout_marginLeft="10dp"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="+79113457999"
+            android:id="@+id/editText_telephone_number" android:layout_gravity="left|center_vertical"/>
+
+
+</LinearLayout>
