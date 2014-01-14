@@ -54,7 +54,7 @@ public class ListActivity extends Activity {
             Log.e("error", "error", e);
         }
         try {
-            values = scheduleDao.queryForAll();
+            values = scheduleDao.queryBuilder().orderBy("scheduleTime", true).orderBy("boxNumber", true).query();
         } catch (SQLException e) {
             Log.e("error", "error", e);
         }
