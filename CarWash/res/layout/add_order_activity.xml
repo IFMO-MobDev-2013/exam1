@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:text="Название машины"
+            android:id="@+id/textView" android:layout_gravity="center_horizontal"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:id="@+id/etCarName"/>
+    <TextView android:layout_width="fill_parent" android:layout_height="30dp" android:text="Цвет машины"
+              android:id="@+id/textView2"/>
+    <EditText android:layout_width="fill_parent" android:layout_height="50dp" android:id="@+id/etCarColor"/>
+    <TextView android:layout_width="fill_parent" android:layout_height="30dp" android:text="Номер машины"
+              android:id="@+id/textView3"/>
+    <EditText android:layout_width="fill_parent" android:layout_height="50dp" android:id="@+id/etCarNumber"/>
+    <TextView android:layout_width="fill_parent" android:layout_height="30dp" android:text="Телефон"
+              android:id="@+id/textView4"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/etPhone"/>
+    <TextView android:layout_width="fill_parent" android:layout_height="30dp" android:text="Время"
+              android:id="@+id/textView5"/>
+    <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner" android:spinnerMode="dropdown"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Добавить"
+            android:id="@+id/btnAddCar" android:layout_gravity="center_horizontal"/>
+</LinearLayout>

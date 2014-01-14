@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CarWash</string>
+    <string name="carName">Название машины</string>
+    <string name="carColor">Цвет машины</string>
+    <string name="time">Время</string>
+    <string name="box">Бокс</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:text="Название автомойки"
+            android:id="@+id/textView" android:textSize="30dp"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etName" android:text="Автомойка у дяди Вани"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:text="Количество окон"
+            android:id="@+id/textView2" android:textSize="30dp"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/etCount" android:text="3"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:id="@+id/btnOK" android:layout_gravity="center_horizontal"/>
+</LinearLayout>
+
