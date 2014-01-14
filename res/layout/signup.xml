@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:gravity="center_vertical"
+              android:padding="30dp">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/carwash"
+            android:id="@+id/textView" android:layout_gravity="center_horizontal" android:textStyle="bold"
+            android:textSize="30dp"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/signuptitle" android:layout_gravity="center_horizontal" android:hint="@string/unclevanya"
+            android:text="@string/vanya"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/signupcount" android:layout_gravity="center_horizontal" android:hint="@string/numberofboxes"
+            android:text="@string/count"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign up"
+            android:id="@+id/button" android:layout_gravity="center_horizontal" android:onClick="signUp"/>
+</LinearLayout>

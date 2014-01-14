@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:padding="25dp">
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editmodel" android:layout_gravity="center_horizontal" android:hint="Model"
+            android:textSize="20dp"/>
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/editcolour"
+              android:layout_gravity="center_horizontal" android:hint="Colour" android:textSize="20dp"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editcarnumber" android:layout_gravity="center_horizontal" android:hint="Car number"
+            android:textSize="20dp" android:inputType="number"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editphone" android:layout_gravity="center_horizontal" android:hint="Telephone"
+            android:textSize="20dp" android:inputType="number"/>
+    <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerbox" android:layout_gravity="center_horizontal"/>
+    <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnertime"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:id="@+id/button" android:layout_gravity="center_horizontal" android:onClick="addOrder"/>
+</LinearLayout>
