@@ -63,7 +63,7 @@ public class AddCarActivity extends Activity {
                 carItem.param[Car.COLOR] = color.getText().toString();
                 carItem.param[Car.NUMBER] = carNumber.getText().toString();
                 carItem.param[Car.PHONE] = phoneNumber.getText().toString();
-                carItem.param[Car.BOX] = ""+Car.fromTime(selectedBox + "");
+                carItem.param[Car.BOX] = selectedBox + "";
                 carItem.param[Car.TIME] = ""+Car.fromTime(time.getText().toString());
                 db.addItem(carItem);
                 ArrayList<Car> a = db.getAllItems();
@@ -94,7 +94,7 @@ public class AddCarActivity extends Activity {
             int j;
             for (j = 0; j < cars.size() && !Car.getTime(i).equals(cars.get(j).getTime()); j++);
             if (j == cars.size()){
-                nextFreeBox[temp.size()] = 0;
+                nextFreeBox[temp.size()] = 1;
                 temp.add(Car.getTime(i));
                 continue;
             }

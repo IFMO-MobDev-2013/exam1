@@ -57,6 +57,7 @@ public class CarAdapter extends BaseAdapter {
 
         ((TextView) view.findViewById(R.id.itemMainText)).setText(l.param[Car.NAME]);
         ((TextView) view.findViewById(R.id.itemAltText)).setText(l.param[Car.COLOR]);
+        ((TextView) view.findViewById(R.id.itemBoxText)).setText("Box: " + l.param[Car.BOX]);
         ((TextView) view.findViewById(R.id.itemTimeText)).setText(l.getTime());
 
         return view;

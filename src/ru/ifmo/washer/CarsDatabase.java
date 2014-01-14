@@ -43,7 +43,7 @@ public class CarsDatabase {
 
     private String DATABASE_CREATE;
 
-    private static final int DATABASE_VERSION = 2;
+    private static final int DATABASE_VERSION = 3;
 
     private final Context mCtx;
 
