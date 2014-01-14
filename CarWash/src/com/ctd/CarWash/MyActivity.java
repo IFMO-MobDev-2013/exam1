@@ -63,6 +63,8 @@ public class MyActivity extends Activity {
                     sqLiteDatabase.insert(CarWashNameDataBaseHelper.DATABASE_NAME, null, contentValues);
                 }
                 Intent intent = new Intent();
+                name = etName.getText().toString();
+                count = Integer.parseInt(etCount.getText().toString());
                 intent.putExtra(CarWashNameDataBaseHelper.NAME, name);
                 intent.putExtra(CarWashNameDataBaseHelper.COUNT, count);
                 intent.setClass(getApplicationContext(), OrdersActivity.class);
@@ -78,7 +80,7 @@ public class MyActivity extends Activity {
     @Override
     protected void onResume() {
         super.onResume();
-        if (readFromDataBase()){
+        if (readFromDataBase()) {
             finish();
         }
     }
