@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Carwash</string>
+    <string name="carwash">Carwash</string>
+    <string name="unclevanya">Carwash name</string>
+    <string name="count">3</string>
+    <string name="numberofboxes">Number of boxes</string>
+    <string name="vanya">Автомойка Дяди Вани</string>
+</resources>
