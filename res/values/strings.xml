@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">exam1</string>
+    <string name="default_company">автомойка у дяди Вани</string>
+    <string name="default_boxes">3</string>
+    <string name="enter_company">Enter company name</string>
+    <string name="enter_boxes">Enter number of boxes</string>
+    <string name="add_company">Add company</string>
+    <string name="add_entry">Add</string>
+    <string name="brand_color">Brand and color</string>
+    <string name="time">Scheduled time</string>
+    <string name="box">Box</string>
+    <string name="car_number">Car number</string>
+    <string name="phone_number">Phone number</string>
+    <string name="submit_button">Submit</string>
+
+
+</resources>
